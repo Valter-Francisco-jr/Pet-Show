@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Barra Navegador */
+.container{
+    position: fixed;
+    width: 100%;
+    padding: 5px 0;
+    font-family: 'ubuntu', sans-serif;
+    z-index: 999;
+    transition: all 0.3s ease;
+    background-color: #fae500;
+}
+
+.container .navbar{
+    max-width: 1400px;
+    padding: 0 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo img{
+    width: 110px;
+    height: 70px;
+    padding: 5px 0 0 8px;
+    cursor: pointer;
+    
+}
+.navbar .menu{
+    display: inline-flex;
+}
+
+.menu li{
+    list-style: none;
+    
+}
+
+.menu li a{
+    color: #000;
+    font-size: 18px;
+    padding: 9px 20px;
+    font-weight: 600;
+    text-decoration: none;
+    background: none;
+    line-height: 60px;
+    transition: all 0.8s ease;
+}
+
+.menu li:hover{
+    background: #fff;
+    transition: all 0.8s ease;
+
+}
+
+.menu li .nav-link{
+    background: #fae500;
+    padding: 20px 20px;
+    line-height: 60px;
+    transition: all 0.5s ease;
+}
+
+.nav-link:hover{
+    color: #fff;
+    padding: 0;
+}
+
+.menu li .outline{
+    width: 12px;
+    margin: 0 0 -3px 5px;
+
+}
+
+
+/* Sub-Menu */
+
+.dropdown-menu:hover{
+    background: #ffff;
+
+}
+
+.sub-menu:hover{
+    background: #fae500;
+    visibility: visible;
+}
+
+.menu .dropdown-menu{
+    background: #fff;
+    width: 300px;
+    height: 550px;
+    line-height: 45px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.menu li:hover .dropdown-menu{
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.8s ease;
+}
+
+.dropdown-menu li a{
+    display: block;
+    font-weight: 100;
+    padding: 23px 20px;
+    line-height: 0;
+}
+
+.dropdown-menu li a:hover{
+    background-color: #dddddd;
+}
+
+.dropdown-menu .Imagem img{
+    width: 300px;
+    margin-left: 45vh;
+    height: 100%;
+    
+    position: absolute;
+}
+
+
+.cart-outline{
+    color: #000;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.cart-outline:hover{
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+
+/* Home Inicial */
+
+.home{
+    background-color:#fae500;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.home .max-width{
+    margin: auto 0 auto;
+}
+
+.home .home-content .imagem1 img{
+    position: absolute;
+    display: flex;
+    width: 660px;
+    height: 750px;
+    margin-left: 20px;
+    top: 0;
+}
+
+.home .home-content .text-1{
+    font-size: 50px;
+    font-weight: 800;
+    color: #000;
+    top: 150px;
+    margin-left: 700px;
+    
+}
+
+.home .home-content .text-2{
+    font-size: 40px;
+    color: #000;
+    margin-top: 10px;
+    margin-left: 700px;
+    
+}
+
+.home .home-content .text-3{
+    color: red;
+    font-size: 70px;
+    margin-left: 700px;
+    
+}
+
+.home .home-content a{
+    display: inline-block;
+    color: #000;
+    margin-left: 700px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 2px solid #000;
+    font-size: 20px;
+    padding: 8px 25px;
+    
+}
+
+
+
+
+
+
+
